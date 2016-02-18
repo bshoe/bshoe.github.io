@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<title>"SDLC notes"</title>
+
+<meta name="author" content="Bridget Shoe">
+<meta name="description" content="Initial notes from edX class about SDLC.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+<header>
+<h1 id="top" >Introduction to SDLC </h1>
+</header>
+<div id="middle">
+<div id="nav"> 
+<p>shortcuts </p>
+<p><a href="#C1">Definitions</a></p>
+<p><a href="#C2">SDLC</a></p>
+<p><a href="#C3">CASE Tools</a></p>
+<p><a href="#C4">Models</a></p>
+</div>
+<div id=section>
+<h2 id="C1">Definitions</h2>
+<dl>
+<dt><h3>data</dt>
+<dd> raw and unprocessed facts </h3>
+<table>
+  <tr>
+   <td>&#9830;   numbers</td>
+     <td>&#9830;   images</td>
+  </tr>
+  <tr>
+    <td>&#9830;   letters</td>
+  <td>&#9830;   videos</td> 
+	</tr>
+  <tr> 
+    <td>&#9830;   text</td>
+    <td></td>
+  </tr>
+</table></dd>
+ <dt><h3>information </dt> 
+<dd>processed data</h3>
+	<ul><ul>
+	<li>filter</li>
+	<li>contextualize</li>
+	<li>organize</li>
+	<li>sort </li>
+	</ul></ul>
+	</dd>
+ <dt><h3>decisions </dt>
+<dd> information to infer conclusions, create knowledge</h3></dd>
+
+ <dt><h3>information system </dt><dd> computerized system composed of people, hardware, software and procedures that work together to collect and store data and process it in such
+a way that we get information that we can use to take decisions and create knowledge. </h3></dd>
+</dl>
+<a href="#top">return to top</a>
+ </div>
+<div id=section>
+<h2 id="C2">SDLC</h2>
+
+<dl>
+<dt><h3>SDLC is "systems development life cycle"<dt> 
+<dd>defines activities that are needed to develop an information system.</h3></dd></dl>
+<ol type="I">
+<li>feasibility</li>
+	<ul><li>all factors that can influence successful project</li>
+		<li>economic factors</li>
+		<li>technological feasibility</li>
+		</ul>
+<li>definition / requirements </li>
+	<ul><li>what it takes to meet the organization's goals, what system will do</li></ul>
+<li>design</li>
+	<ul><li>hardware/software/people needed to make system work,how does it all work together</li></ul>
+<li>acquisition</li>
+	<ul><li>purchase equipment</li> 
+	<li>assign resources</li> </ul>
+<li>implementation of the system</li>
+	<ul><li>write the code to implement the functionality</li>
+	<li>languages choice often dependent on company policy</li></ul>
+<li>test</li>
+	<ul><li>Unit testing: test each component</li>
+	<li>Integration testing: test entire system and make sure nothing breaks</li>
+	<li>system level testing: where user is interacting</li>
+	<li>load testing: where many users access system</li></ul>
+<li>installation </li>
+	<ul><li>put into production system - give users access</li></ul>
+<li>training</li>
+	<ul><li>develop manuals and support documents</li>
+	<li>teach users and support personal</li> </ul>
+<li>maintain the system while in use</li>
+	<ul><li>updates</li>
+	<li>bugfixes</li>
+	<li>change requests</li></ul>
+</ol>
+<dl><dt>
+<h3>reduced CLEP model:</dt><dd> consists of these five phases</h3></dd> </dl>
+<ol type="1">
+	<li> <span style="color:red">planning:</span> decide if build/buy new or reuse existing - costs, </li> 
+	<li> <span style="color:red">analysis:</span> requirements - definition of problem/objectives - are organization goals met, </li> 
+	<li>  <span style="color:red">design:</span> put needed system components together (hardware/software),</li> 
+	<li> <span style="color:red"> implementation:</span> write code, test, install and train</li>
+	<li>  <span style="color:red">maintenance:</span> make sure system is continues to meet organization and user needs .</li>
+	</ol>
+	<h6>CLEP is College Level Examination Program.</h6>
+	<p><a href="#top">return to top</a></p>
+</div>
+<div id=section>
+<h2 id="C3">CASE tools</h2>
+<p>Development tools used in SDLC are called CASE (Computer Aided Software Engineering) tools.</p>
+
+<h3>* In the requirements and design phase use </h3>
+	<ul><li>tools to make diagrams for analysing systems;</li>
+	<li>tools to automate a business process modeling, BPM;</li>
+	<li>tools that help you modeling the unified modeling language in UML.</li>
+</ul>
+<h3>* During the implementation phase use</h3>
+	<ul><li>tools like software development kits (SDK) </li>
+	<ul>
+	 	<li>IDE (Integrated Development Environment) to help code, for example Eclipse;</li>
+		<li>source code generation tools automatically generate code from  BPM or UML models.</li>
+		</ul>
+	<li>compilers translate software to machine readable codes that can be interpreted by the hardware;</li>
+	<li>debugging tools for finding and fixing defects, allow you to step through code.</li>
+</ul>
+<h3>* In the test phase use </h3>
+	<ul><li>management tools for test cases;</li>
+	<li>source code analyzers to analyze the code for complexity;</li>
+	<li>performance tools measure how well a system performs: slow?  fast? and load?; </li>
+	<li>and there are also tools for specifying test cases.</li>
+</ul>
+<h3>* Tools for installation and maintenance include </h3>
+	<ul><li>version control systems that help us to control all the versions (GIT);</li>
+	<li>configuration management, different uses might configure their system differently.</li>
+	<ul>
+	<p><a href="#top">return to top</a></p>
+</div>
+<div id=section>
+<h2 id="C4">Software Development Models</h2>
+<h3>Two examples of sequential models:</h3>
+<p>	Everything is defined up front and making downstream changes is difficult because you need to go back to the beginning. <br>
+	User interaction comes late.<br> Scoping: statement of work done upfront.<br>
+	Lots of written documentation</p>
+ <ul> <h3>Waterfall model:</h3>
+	<li>a sequential top down approach</li>
+	<li>outdated</li>
+	<li>requirements, design, implementation, verification, deployment and maintenance.</li>
+</ul>
+<ul><h3> V model:</h3>
+	<li>first adaption to the Waterfall model</li>
+ 	<li>shaped like a V with all the development activities on one side and corresponding testing activities on the other side</li>
+	<li>it includes testing at all levels.</li>
+</ul>
+<h3>Two examples of prototyping models</h3>
+	<p>Prototype is a small working model.<br>
+	You build, interact with user, build again, interact with user, there's lots of user interaction.<br>
+	This is incremental development of a system. <br>
+	Functionality is addedincrementally until the whole system is complete and contains all the functionality that the user desires. 
+</p>
+ <p>
+ <ul>
+ <h3>Agile software development:</h3>
+	<li>incremental
+	<li>evaluate constantly
+	<li>sprints: short time-boxed frames of development (a few weeks) adds new function 
+	followed by user evaluation</li>
+	<li>emphisis on development not written documents</li>
+	<li>User stories "Card, Conversation, Confirmation"</li>
+</ul>
+<ul> 
+<h3> RAD: rapid application development:</h3> 
+	<li>focuses on constant user feedback,</li>
+	<li>re-use of prebuilt components so if it already exists don't do it again, just reuse it</li> 
+	<li>and use of case tools</li>
+</ul>
+</p>
+<p><a href="#top">return to top</a></p>
+</div>
+<div id=section>
+<h2>REFERENCES:</h2>
+<ul> 
+<p>Compilation of my notes on SDLC after completing the first section of the edX class: 
+<a href="https://courses.edx.org/courses/course-v1:UPValenciaX+ISC101.3x+3T2015/info" target="_blank">
+	UPValenciaX: ISC101.3x Information Systems and Computer Applications, Part 3: Software Development</a></p>
+
+<p>The knowledge to write the HTML and CSS to create this page was obtained from 
+<a href="http://www.w3schools.com/html/default.asp" target="_blank"> W3Schools </a> 
+and from <a href=" http://www.html-5-tutorial.com/"target="_blank"> html-5-tutorials </a>
+</p>
+</ul>
+<p><a href="#top">return to top</a></p>
+</div>
+</div>
+<div id="footer">
+<p>   &#169;2016 Bridget Shoe</p>
+ </div>
+</body>
+<html>

@@ -1,17 +1,87 @@
 body {
-    background-color: green;
+    background-color: yellow;
 }
 h1 {
+	padding-left:30%;
     color: maroon;
-    margin-left: 40px;
-	border: 3px double blue;
+    
 } 
-.myBox {
+h2 {
+    color: blue;
+    margin-left: 5px;
+	padding-left: 250px;
+	padding-bottom:2px; 
+	border: 6px double blue;
+} 
+li {
+	list-style-type:1;
+}
+table, th, td {
+	width:70%;
+	padding-left: 25px;
+    border: 0px solid black;
+}
+/* .myBox {
     float: left;
-    margin: 5px;
-    padding: 15px;
-    width: 300px;
-    height: 75px;
+    margin: 5%;
+    padding: 5px;
+	padding-bottom: 2px;
+	width: 90%;
     border: 3px double blue;
-	background-color: yellow
+	background-color:beige
+	
+} */
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#middle{
+	height:3600px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:100%; 
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+	background-color:pink;
+    width:850px;
+    float:left;
+	margin:20px;
+    padding:20px;
+
+}
+#footer {
+    background-color:yellow;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:20px; 
+}
+/* .myHeader{
+	float: left;
+	padding-right:15%;
+	padding-left:15%;
+	padding-bottom:5px;
+	width: 70%;
+	border: 5px double blue;
 } 
+.myContainer {
+    float: left;
+    margin: 5%;
+    padding: 15px;
+	padding-bottom: 2px;
+	width: 90%;
+	background-color:pink;
+}
+.myFooter{
+	float: right;
+	padding-right:45%;
+	padding-bottom:15px;
+}
+ */
