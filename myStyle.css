@@ -8,18 +8,25 @@ h1 {
 } 
 h2 {
     color: blue;
-    margin-left: 5px;
-	padding-left: 250px;
+    margin-left:5px;
+	padding-left:250px;
 	padding-bottom:2px; 
-	border: 6px double blue;
+	border:6px double blue;
 } 
 li {
 	list-style-type:1;
 }
+#mySpan {
+	color:red;
+	font-weight:bold;
+}
 table, th, td {
 	width:70%;
-	padding-left: 25px;
-    border: 0px solid black;
+	padding-left:25px;
+    border:0px solid black;
+}
+#myIndent{
+	padding-left:25%;
 }
 /* .myBox {
     float: left;
@@ -39,18 +46,19 @@ table, th, td {
 }
 #middle{
 	height:3600px;
+	
 }
 #nav {
     line-height:30px;
     background-color:#eeeeee;
     height:100%; 
-    width:100px;
+    width:10%;
     float:left;
     padding:5px; 
 }
 #section {
 	background-color:pink;
-    width:850px;
+    width:80%;
     float:left;
 	margin:20px;
     padding:20px;
